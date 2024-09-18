@@ -1,0 +1,126 @@
+body {
+  
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    HEIGHT : 850px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #1c1c1c;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+h1 {
+  margin : auto;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+   
+    font-size: 2em;
+}
+
+h3 {
+  color :#0091EA ;
+  text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+.contact-info {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 4px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.label {
+  POINTER-EVENTS: NONE;
+    background: #444;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.social-icons {
+   
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.social-icon {
+  
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-icon img {
+    width: 50%;
+    height: 50%;
+}
+
+.social-icon:hover {
+    background-color : #651FFF;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.download-btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 20px auto;
+   transition: transform 0.3s, box-shadow 0.2s;
+}
+
+.download-btn:hover {
+   transform : scale(1.09);
+    background-color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+.awards{
+  text-align : center;
+  
+}
